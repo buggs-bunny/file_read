@@ -1,8 +1,3 @@
-The provided README.md file is tailored for your Python script that reads and displays the content of a file (e.g., `file_1.txt`) while handling errors like file not found[1][2]. It follows standard best practices for Python project documentation, including sections for overview, usage, and testing[4][7].
-
-```markdown
-# File Content Display Script
-
 ## Overview
 This Python script reads the contents of a specified text file (e.g., `file_1.txt`) and prints each line, stripping trailing whitespace. It includes error handling for cases like a missing file or other exceptions, making it robust for basic file operations.
 
