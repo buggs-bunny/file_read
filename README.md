@@ -7,7 +7,7 @@ This Python script reads the contents of a specified text file (e.g., `file_1.tx
 
 ## How to Run
 1. Save the script as `display_file.py` (or similar).
-2. Ensure `file_1.txt` exists in the same directory with sample content.
+2. Ensure `file_1.txt` exists in the same directory as sample content.
 3. Run the script from the command line:
    ```
    python display_file.py
@@ -18,8 +18,8 @@ This Python script reads the contents of a specified text file (e.g., `file_1.tx
 ## Example Output
 - If `file_1.txt` contains "Hello\nWorld":
   ```
-  Hello
-  World
+  This is a sample text file.
+  It contains multiple lines
   ```
 - If the file is missing:
   ```
