@@ -6,7 +6,7 @@ This Python script reads the contents of a specified text file (e.g., `file_1.tx
 - No external dependencies required.
 
 ## How to Run
-1. Save the script as `display_file.py` (or similar).
+1. Save the script as `open_file.py` (or similar).
 2. Ensure `file_1.txt` exists in the same directory as sample content.
 3. Run the script from the command line:
    ```
