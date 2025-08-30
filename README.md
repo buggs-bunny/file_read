@@ -28,8 +28,36 @@ This Python script reads the contents of a specified text file (e.g., `file_1.tx
 
 ## Error Handling
 - Catches `FileNotFoundError` specifically and prints a user-friendly message.
-- Falls back to a general exception handler for unexpected issues.
+
+- ```markdown
+# Write and Append to File Script
+
+## Overview of task 2
+This Python script collects user input, writes it to a specified file (e.g., `output.txt`), appends additional input, and then displays the final contents of the file line by line. It includes basic error handling for robustness during file operations.
+   ```
+   python open_file2.py
+   ```
+3. Follow the prompts:
+   - Enter initial data to write.
+   - Enter additional data to append.
+4. The script will create/overwrite `output.txt`, append to it, and print the final content.
+
+## Example Output
+Assuming user inputs "Hello" and then "World":
+
+```
+Enter data to write to the file: Hello
+Enter additional data to append: World
+
+Final content of the file:
+Hello
+World
+```
+
+## Error Handling
+- Wraps all operations in a try-except block to catch and print any exceptions (e.g., permission issues or file errors).
 
 ## Testing
-- Create or delete `file_1.txt` to test success and error paths.
-- Modify the filename in the `display_file_content` call for different files.
+- Run with valid inputs to verify writing, appending, and reading.
+- Test error cases by restricting file permissions or using an invalid filename.
+- Check the generated `output.txt` file manually for accuracy.
